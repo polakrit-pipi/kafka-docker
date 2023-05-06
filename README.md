@@ -106,7 +106,7 @@ Reference: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metad
 
 ### Injecting HOSTNAME_COMMAND into configuration
 
-If you require the value of `HOSTNAME_COMMAND` in any of your other `KAFKA_XXX` variables, use the `_{HOSTNAME_COMMAND}` string in your variable value, i.e.
+If you require the value of `HOSTNAME_COMMAND` in any of your other `KAFKA_XXX` va riables, use the `_{HOSTNAME_COMMAND}` string in your variable value, i.e.
 
 ```
 KAFKA_ADVERTISED_LISTENERS=SSL://_{HOSTNAME_COMMAND}:9093,PLAINTEXT://9092
